@@ -1,0 +1,65 @@
+html, body{
+    height: 100%;
+}
+
+div, body{
+     
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}  
+
+body { 
+    background-image: url(https://getbento.imgix.net/accounts/81203e0438a87a1c9df65233d9b883b1/media/images/45641Rachel_Weinstein_-_Copy_of_BrooklynDiner_43rd_St2.JPG?w=1800&fit=max&auto=compress,format&h=1800) ;
+    background-size:  cover;     
+    background-repeat:  no-repeat;    
+}
+
+li {
+    padding: 15px;
+    margin: 15px;
+    background: turquoise;
+    list-style: none;
+  }
+  
+  .label {
+    font-weight: bold;
+  }
+  
+  .center {
+      text-align: center;
+  }
+  
+  .right {
+      align-content: right;
+  }
+  
+  img {
+      align-content: center;
+  }
+  
+  h1 {
+      text-align: center;
+      text-shadow: 2px pink;
+      color: red;
+      background-color: lightgoldenrodyellow;
+  }
+  
+  h2 {
+      text-align: center;
+      text-shadow: 2px 2px black;
+      color: red;
+  }
+  
+  .updateForm {
+    padding: 25px;
+    margin: 25px;
+    background: lightgoldenrodyellow;
+    border: 1px black solid;
+  }
+  
+  .form-group {
+    margin-bottom: 25px;
+    background-color: lightgoldenrodyellow;
+  }    
+  
+  

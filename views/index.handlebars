@@ -1,0 +1,70 @@
+<div class="container">
+	
+	<div class="row">
+	    <div class="center col-sm-12">
+			<img src="assets/img/burger.png" alt="Eat-Da-Burger">
+	        <h1>BurgerMania</h1>
+	        <p></p>
+	    </div>
+  	</div>
+
+
+	<div class="row">
+	    <div class="col-sm-6">
+
+			<br>
+			<h2>Burgers Ready for Pick-up</h2>
+
+			<ul>
+			  {{#each burgers}}
+			    {{#unless this.devoured}}
+			      <li>
+			      	{{this.id}}
+			        {{this.burger_name}}
+
+			        <form action="/{{this.id}}?_method=PUT" method="POST">
+			          <input type="hidden" name="devoured" value="true">
+			          <button class="btn-danger" type="submit">Devour It</button>
+			        </form>
+
+			      </li>
+			    {{/unless}}
+			  {{/each}}
+			</ul>
+
+	    </div>
+
+	    <div class="col-sm-6">
+			<h2>Devoured</h2>
+			
+			  {{#each burgers}}
+			    {{#if this.devoured}}
+			      <li>
+			      	{{this.id}}
+			        {{this.burger_name}}
+			      </li>
+			    {{/if}}
+			  {{/each}}
+			
+	    </div>
+  	</div>
+
+
+	<div class="row">
+	    <div class="center col-sm-12">
+
+			<h2>Place Your Order</h2>
+
+			<form class="updateForm" action="/" method="POST">
+
+			  <div class="form-group">
+			    <p>Enter a burger you want to order and click the Submit Order button.</p>
+			    <input type="text" name="burger_name">
+			  </div>
+			  
+			  <button class="btn-danger" type="submit">Submit Order</button>
+			</form>
+
+	    </div>	
+  	</div>
+</div>
