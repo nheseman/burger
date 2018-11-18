@@ -15,8 +15,8 @@ body {
 }
 
 li {
-    padding: 15px;
-    margin: 15px;
+    padding: 10px;
+    margin: 10px;
     background: turquoise;
     list-style: none;
   }
@@ -51,8 +51,8 @@ li {
   }
   
   .updateForm {
-    padding: 25px;
-    margin: 25px;
+    padding: 15px;
+    margin: 20px;
     background: lightgoldenrodyellow;
     border: 1px black solid;
   }
