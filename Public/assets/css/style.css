@@ -1,65 +1,60 @@
-html, body{
-    height: 100%;
+html,
+body {
+  height: 100%;
 }
 
-div, body{
-     
-    font-family: Arial, Helvetica, sans-serif;
-    color: black;
-}  
+div,
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+}
 
-body { 
-    background-image: url(https://getbento.imgix.net/accounts/81203e0438a87a1c9df65233d9b883b1/media/images/45641Rachel_Weinstein_-_Copy_of_BrooklynDiner_43rd_St2.JPG?w=1800&fit=max&auto=compress,format&h=1800) ;
-    background-size:  cover;     
-    background-repeat:  no-repeat;    
+label {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 40px;
+  text-align: center;
+  text-shadow: 2px 2px black;
+  color: whitesmoke;
+}
+
+body {
+  background-color: black;
+  background-image: url(https://getbento.imgix.net/accounts/81203e0438a87a1c9df65233d9b883b1/media/images/45641Rachel_Weinstein_-_Copy_of_BrooklynDiner_43rd_St2.JPG?w=1800&fit=max&auto=compress,format&h=1800);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.jumbotron h1 {
+  text-shadow: 2px 2px teal;
+  color: red;
+  background-color: lightgoldenrodyellow;
+  width: 50%;
+}
+
+.jumbotron h2 {
+  text-shadow: 2px pink;
+  color: red;
+  background-color: lightgoldenrodyellow;
+  width: 50%;
 }
 
 li {
-    padding: 10px;
-    margin: 10px;
-    background: turquoise;
-    list-style: none;
-  }
-  
-  .label {
-    font-weight: bold;
-  }
-  
-  .center {
-      text-align: center;
-  }
-  
-  .right {
-      align-content: right;
-  }
-  
-  img {
-      align-content: center;
-  }
-  
-  h1 {
-      text-align: center;
-      text-shadow: 2px pink;
-      color: red;
-      background-color: lightgoldenrodyellow;
-  }
-  
-  h2 {
-      text-align: center;
-      text-shadow: 2px 2px black;
-      color: red;
-  }
-  
-  .updateForm {
-    padding: 15px;
-    margin: 20px;
-    background: lightgoldenrodyellow;
-    border: 1px black solid;
-  }
-  
-  .form-group {
-    margin-bottom: 25px;
-    background-color: lightgoldenrodyellow;
-  }    
-  
-  
+  padding: 10px;
+  list-style: none;
+}
+
+.jumbotron {
+  padding-top: 1%;
+  background-color: transparent !important;
+}
+
+.form-group {
+  margin-bottom: 25px;
+  background-color: lightgoldenrodyellow;
+}
+.btn-danger{
+    border-radius: 15px;
+}
